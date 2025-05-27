@@ -68,6 +68,7 @@ function App() {
             <b>Movie Craze</b>
           </h1>
           <p>I added GitHub Actions to this</p>
+          <p>For automated deployment<p>
           <Search handleInput={handleInput} SearchResult={SearchResult} />
           <div className="container">
             <div className="row">
