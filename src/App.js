@@ -50,6 +50,7 @@ function App() {
         {typeof state.selected.Title !== "undefined" ? <Detail selected={state.selected} close={close}/> : 
       <header className="w-100 text-center text-white mt-5">
         <h1><b>Movie Craze</b></h1>
+        <p>I added Github Actions to this</p>
         <Search handleInput={handleInput} SearchResult={SearchResult} />
         <div className="container">
             <div className="row">
